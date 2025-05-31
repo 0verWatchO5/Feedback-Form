@@ -635,79 +635,81 @@
             <h2 class="section-title">Share Your Thoughts</h2>
             <p class="section-subtitle">Your words mean the world to me</p>
             
-            <form name="feedback" method="POST" data-netlify="true" class="feedback-form">
-                <div class="form-group">
-                    <label for="name">Your Beautiful Name</label>
-                    <input type="text" id="name" placeholder="You know what to enter here!" name="name" required>
-                </div>
-                
-                <div class="form-group">
-                    <label for="email">Email (Optional)</label>
-                    <input type="email" id="email" placeholder="You dont need to enter this, I love you!" name="email">
-                </div>
-                
-                <div class="form-group">
-                    <label for="mood">How are you feeling today?</label>
-                    <div class="mood-selector">
-                        <input type="radio" id="happy" name="mood" value="happy">
-                        <label for="happy" class="mood-option">
-                            <i class="fas fa-smile"></i>
-                            <span>Happy</span>
-                        </label>
-                        
-                        <input type="radio" id="love" name="mood" value="love">
-                        <label for="love" class="mood-option">
-                            <i class="fas fa-heart"></i>
-                            <span>In Love</span>
-                        </label>
-                        
-                        <input type="radio" id="excited" name="mood" value="excited">
-                        <label for="excited" class="mood-option">
-                            <i class="fas fa-star"></i>
-                            <span>Excited</span>
-                        </label>
-                        
-                        <input type="radio" id="peaceful" name="mood" value="peaceful">
-                        <label for="peaceful" class="mood-option">
-                            <i class="fas fa-leaf"></i>
-                            <span>Peaceful</span>
-                        </label>
-                        
-                        <input type="radio" id="grateful" name="mood" value="grateful">
-                        <label for="grateful" class="mood-option">
-                            <i class="fas fa-hands"></i>
-                            <span>Grateful</span>
-                        </label>
+<form name="feedback" method="POST" data-netlify="true" class="feedback-form">
+    <input type="hidden" name="form-name" value="feedback" />
+    
+    <div class="form-group">
+        <label for="name">Your Beautiful Name</label>
+        <input type="text" id="name" placeholder="You know what to enter here!" name="name" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email (Optional)</label>
+        <input type="email" id="email" placeholder="You dont need to enter this, I love you!" name="email">
+    </div>
+    
+    <div class="form-group">
+        <label for="mood">How are you feeling today?</label>
+        <div class="mood-selector">
+            <input type="radio" id="happy" name="mood" value="happy">
+            <label for="happy" class="mood-option">
+                <i class="fas fa-smile"></i>
+                <span>Happy</span>
+            </label>
+            
+            <input type="radio" id="love" name="mood" value="love">
+            <label for="love" class="mood-option">
+                <i class="fas fa-heart"></i>
+                <span>In Love</span>
+            </label>
+            
+            <input type="radio" id="excited" name="mood" value="excited">
+            <label for="excited" class="mood-option">
+                <i class="fas fa-star"></i>
+                <span>Excited</span>
+            </label>
+            
+            <input type="radio" id="peaceful" name="mood" value="peaceful">
+            <label for="peaceful" class="mood-option">
+                <i class="fas fa-leaf"></i>
+                <span>Peaceful</span>
+            </label>
+            
+            <input type="radio" id="grateful" name="mood" value="grateful">
+            <label for="grateful" class="mood-option">
+                <i class="fas fa-hands"></i>
+                <span>Grateful</span>
+            </label>
 
-                        <input type="radio" id="sad" name="mood" value="sad">
-                        <label for="grateful" class="mood-option">
-                            <i class="fas fa-grin"></i>
-                            <span>Sad</span>
-                        </label>
+            <input type="radio" id="sad" name="mood" value="sad">
+            <label for="sad" class="mood-option">
+                <i class="fas fa-sad-tear"></i>
+                <span>Sad</span>
+            </label>
 
-                        <input type="radio" id="frustrated" name="mood" value="frustrated">
-                        <label for="grateful" class="mood-option">
-                            <i class="fas fa-hands"></i>
-                            <span>Frustrated</span>
-                        </label>
+            <input type="radio" id="frustrated" name="mood" value="frustrated">
+            <label for="frustrated" class="mood-option">
+                <i class="fas fa-angry"></i>
+                <span>Frustrated</span>
+            </label>
 
-                        <input type="radio" id="annoying" name="mood" value="annoying">
-                        <label for="grateful" class="mood-option">
-                            <i class="fas fa-hands"></i>
-                            <span>Annoying</span>
-                        </label>
-                    </div>
-                </div>
-                
-                <div class="form-group">
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Tell me what's on your mind, my love..." required></textarea>
-                </div>
-                
-                <button type="submit" class="submit-button">
-                    Send with Love <i class="fas fa-paper-plane"></i>
-                </button>
-            </form>
+            <input type="radio" id="annoyed" name="mood" value="annoyed">
+            <label for="annoyed" class="mood-option">
+                <i class="fas fa-meh-rolling-eyes"></i>
+                <span>Annoyed</span>
+            </label>
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell me what's on your mind, my love..." required></textarea>
+    </div>
+    
+    <button type="submit" class="submit-button">
+        Send with Love <i class="fas fa-paper-plane"></i>
+    </button>
+</form>
         </div>
     </section>
 
