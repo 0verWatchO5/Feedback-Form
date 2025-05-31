@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Love Story</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-heart"></i>
+                <span>Our Story</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About us</a></li>
+                <li><a href="#feedback" class="nav-link">Feedback</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon" id="theme-icon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="floating-hearts">
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+                <i class="fas fa-heart"></i>
+            </div>
+            <h1 class="hero-title">Welcome to Our Love Story</h1>
+            <p class="hero-subtitle">A journey of two hearts becoming one</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="500">0</span>
+                    <span class="stat-label">Days Together</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="1000">0</span>
+                    <span class="stat-label">Smiles Shared</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="1"></span>
+                    <span class="stat-label">Endless Journey</span>
+                </div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('about')">
+                Explore Our Journey <i class="fas fa-arrow-down"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <p class="section-subtitle">Every moment with you is a treasure worth remembering</p>
+            
+            <div class="memories-grid">
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Our First Date" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-heart"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Our First Date</h3>
+            <p>The day when everything started. I still remember how nervous I was, but your smile made everything perfect. That little café where we talked for hours about everything and nothing.</p>
+            <span class="memory-date">January 14, 2024</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>First "I Love You"</h3>
+            <p>Under the starlit sky, when words just flowed naturally from my heart to yours. The way your eyes sparkled that night will forever be etched in my memory.</p>
+            <span class="memory-date">February 20, 2024</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="First I Love You" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Adventure Together" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-mountain"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Our Adventure</h3>
+            <p>That spontaneous trip we took together. Getting lost was the best thing that happened because it meant more time with you, more laughs, and more memories to cherish.</p>
+            <span class="memory-date">March 15, 2024</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Cozy Movie Night</h3>
+            <p>Wrapped in blankets, sharing popcorn, and stealing glances at each other instead of watching the movie. These simple moments are what make life beautiful with you.</p>
+            <span class="memory-date">April 8, 2024</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Movie Night" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-film"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Dancing Together" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-music"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Dancing in the Rain</h3>
+            <p>When the rain caught us off guard, instead of running for shelter, we danced. Your laughter echoing through the raindrops was the most beautiful music I've ever heard.</p>
+            <span class="memory-date">May 22, 2024</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Morning Coffee</h3>
+            <p>Those quiet mornings when we'd wake up early just to spend more time together. Sharing coffee and dreams, planning our day while the world was still asleep.</p>
+            <span class="memory-date">June 5, 2024</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Morning Coffee" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-coffee"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Beach Walk" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-water"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Sunset Beach Walk</h3>
+            <p>Walking hand in hand as the sun painted the sky in shades of pink and gold. The waves whispered secrets while we made promises to each other.</p>
+            <span class="memory-date">July 12, 2024</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Cooking Together</h3>
+            <p>That disaster of a dinner we tried to make together. Flour everywhere, burnt edges, but perfect laughter. The best meal we never actually ate.</p>
+            <span class="memory-date">August 3, 2024</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Cooking Together" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-utensils"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Stargazing" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Stargazing Night</h3>
+            <p>Lying on the grass, counting stars and making wishes. You pointed out constellations while I got lost in the constellation of freckles on your face.</p>
+            <span class="memory-date">September 18, 2024</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>First Fight & Makeup</h3>
+            <p>Our first silly argument that lasted all of five minutes before we both started laughing. Learning that even our fights end with hugs and understanding.</p>
+            <span class="memory-date">October 2, 2024</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Making Up" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-peace"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Halloween Costumes" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-mask"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Halloween Costumes</h3>
+            <p>Dressing up as the cheesiest couple costume we could find. You made even the silliest outfit look absolutely stunning, and we won the contest!</p>
+            <span class="memory-date">October 31, 2024</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Thanksgiving Gratitude</h3>
+            <p>Sharing what we're grateful for, and realizing that every item on both our lists somehow related back to each other. Grateful hearts, grateful souls.</p>
+            <span class="memory-date">November 28, 2024</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Thanksgiving" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-turkey"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Christmas Magic" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-snowflake"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Christmas Magic</h3>
+            <p>Decorating our first Christmas tree together. Every ornament had a story, every light reflected the joy in your eyes. Pure magic in every moment.</p>
+            <span class="memory-date">December 24, 2024</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>New Year's Kiss</h3>
+            <p>Counting down to midnight, but the only number that mattered was the one - one kiss, one love, one future together. The perfect start to our forever.</p>
+            <span class="memory-date">January 1, 2025</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="New Years Kiss" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-fireworks"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Snow Day" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-snowman"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Snow Day Fun</h3>
+            <p>Building snowmen and having snowball fights like kids again. Your rosy cheeks and bright smile made the cold winter day feel like the warmest summer.</p>
+            <span class="memory-date">January 15, 2025</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Valentine's Surprise</h3>
+            <p>The surprise picnic you planned in our living room when it was too cold outside. Rose petals, fairy lights, and your beautiful heart making everything perfect.</p>
+            <span class="memory-date">February 14, 2025</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Valentines Day" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-rose"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Spring Flowers" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-seedling"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Spring Awakening</h3>
+            <p>Walking through the blooming gardens, you stopped to smell every flower. Watching you discover beauty in the smallest things made me fall deeper in love.</p>
+            <span class="memory-date">March 20, 2025</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Rainy Day Reading</h3>
+            <p>Curled up together with our favorite books while rain drummed against the windows. Sometimes the best adventures happen without leaving the couch.</p>
+            <span class="memory-date">April 10, 2025</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Reading Together" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-book"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Garden Picnic" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-leaf"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Garden Picnic</h3>
+            <p>Our impromptu picnic in the botanical garden. Surrounded by blooming flowers, but none as beautiful as your smile when you laughed at my terrible jokes.</p>
+            <span class="memory-date">May 5, 2025</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Concert Under Stars</h3>
+            <p>That outdoor concert where we danced to every song. Your hand in mine, swaying to the music, feeling like we were the only two people in the world.</p>
+            <span class="memory-date">June 18, 2025</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Concert Night" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-guitar"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Summer Festival" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-sun"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Summer Festival</h3>
+            <p>Cotton candy, ferris wheel rides, and winning you that giant teddy bear. Your excitement over the smallest prizes made my heart skip beats.</p>
+            <span class="memory-date">July 4, 2025</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Lazy Sunday Morning</h3>
+            <p>No alarms, no plans, just us. Breakfast in bed, messy hair, and the kind of contentment that comes from being exactly where you belong.</p>
+            <span class="memory-date">August 20, 2025</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Lazy Morning" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-bed"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Art Museum" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-palette"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Art Museum Date</h3>
+            <p>Wandering through galleries, discussing paintings and sculptures. You saw beauty and meaning in every piece, just like you do in everyday life.</p>
+            <span class="memory-date">September 12, 2025</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Farmers Market</h3>
+            <p>Saturday morning at the farmers market, picking out fresh flowers and trying samples. Your joy in simple pleasures makes ordinary moments extraordinary.</p>
+            <span class="memory-date">October 7, 2025</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Farmers Market" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-apple-alt"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Hiking Trail" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-hiking"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Mountain Hike</h3>
+            <p>Challenging ourselves on that steep trail, but every step was worth it for the view at the top. Though honestly, the best view was you celebrating our achievement.</p>
+            <span class="memory-date">November 3, 2025</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Cozy Bookstore</h3>
+            <p>Getting lost in that little bookstore for hours. You reading passages aloud, me pretending to listen while actually just watching you get excited about stories.</p>
+            <span class="memory-date">December 1, 2025</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Bookstore Date" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-bookmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Ice Skating" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-skating"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Ice Skating Adventure</h3>
+            <p>Neither of us could skate well, but we held each other up. Falling down together and laughing until our cheeks hurt from smiling so much.</p>
+            <span class="memory-date">December 20, 2025</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Game Night Chaos</h3>
+            <p>Board games scattered everywhere, competitive spirits running high, but ending every game with kisses regardless of who won. You make losing feel like winning.</p>
+            <span class="memory-date">January 8, 2026</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Game Night" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-dice"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Spa Day" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-spa"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Home Spa Day</h3>
+            <p>Face masks, candles, and relaxation music. Taking care of each other and ourselves, finding peace in the simple act of being present together.</p>
+            <span class="memory-date">February 25, 2026</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Surprise Date</h3>
+            <p>The mystery date you planned where I had to guess each location. Every stop was more thoughtful than the last, showing how well you know my heart.</p>
+            <span class="memory-date">March 14, 2026</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Mystery Date" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-question"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Karaoke Night" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-microphone"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Karaoke Duet</h3>
+            <p>Singing our hearts out to cheesy love songs. Your voice harmonizing with mine, creating music that was perfectly imperfect and absolutely beautiful.</p>
+            <span class="memory-date">April 22, 2026</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Sunrise Yoga</h3>
+            <p>Attempting yoga together as the sun rose. More giggling than actual poses, but finding balance in each other's presence and starting the day with gratitude.</p>
+            <span class="memory-date">May 15, 2026</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Morning Yoga" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-om"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Food Truck" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-truck"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Food Truck Adventure</h3>
+            <p>Trying every food truck in the city, sharing bites and discovering new flavors. Your adventurous spirit makes every meal an exciting journey.</p>
+            <span class="memory-date">June 30, 2026</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Photography Walk</h3>
+            <p>Capturing moments around the city, but realizing the most beautiful shots were the candid ones of you discovering beauty in unexpected places.</p>
+            <span class="memory-date">July 18, 2026</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Photography" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-camera"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Volunteer Day" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-hands-helping"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Giving Back Together</h3>
+            <p>Volunteering at the local shelter, working side by side to help others. Seeing your compassionate heart in action made me love you even more deeply.</p>
+            <span class="memory-date">August 12, 2026</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Antique Shopping</h3>
+            <p>Browsing through vintage treasures, imagining the stories behind each piece. You found beauty in the old and worn, just like you find beauty in everything.</p>
+            <span class="memory-date">September 5, 2026</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Antique Shop" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-gem"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Pumpkin Patch" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-pumpkin"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Pumpkin Patch Fun</h3>
+            <p>Searching for the perfect pumpkin, getting lost in the corn maze, and carving jack-o'-lanterns that looked nothing like we planned but everything like us - imperfect and happy.</p>
+            <span class="memory-date">October 28, 2026</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Gratitude Journal</h3>
+            <p>Starting our shared gratitude journal, writing down three things we're thankful for each day. Realizing that 'you' appears in almost every entry.</p>
+            <span class="memory-date">November 15, 2026</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Journal Writing" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-pen"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="memory-card">
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Hot Chocolate" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-mug-hot"></i>
+            </div>
+        </div>
+        <div class="memory-content">
+            <h3>Winter Warmth</h3>
+            <p>Sipping hot chocolate by the fireplace, wrapped in the same blanket. Your warmth next to me making the cold winter night feel like the coziest place on earth.</p>
+            <span class="memory-date">December 10, 2026</span>
+        </div>
+    </div>
+
+    <div class="memory-card reverse">
+        <div class="memory-content">
+            <h3>Future Dreams</h3>
+            <p>Talking about our dreams, our future, and all the adventures we want to share. With you, every dream feels possible, and every future looks brighter than the last.</p>
+            <span class="memory-date">Ongoing...</span>
+        </div>
+        <div class="memory-image">
+            <img src="/placeholder.svg?height=300&width=400" alt="Future Dreams" loading="lazy">
+            <div class="memory-overlay">
+                <i class="fas fa-infinity"></i>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback" class="feedback">
+        <div class="container">
+            <h2 class="section-title">Share Your Thoughts</h2>
+            <p class="section-subtitle">Your words mean the world to me</p>
+            
+            <form name="feedback" method="POST" data-netlify="true" class="feedback-form">
+                <div class="form-group">
+                    <label for="name">Your Beautiful Name</label>
+                    <input type="text" id="name" placeholder="You know what to enter here!" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email (Optional)</label>
+                    <input type="email" id="email" placeholder="You dont need to enter this, I love you!" name="email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="mood">How are you feeling today?</label>
+                    <div class="mood-selector">
+                        <input type="radio" id="happy" name="mood" value="happy">
+                        <label for="happy" class="mood-option">
+                            <i class="fas fa-smile"></i>
+                            <span>Happy</span>
+                        </label>
+                        
+                        <input type="radio" id="love" name="mood" value="love">
+                        <label for="love" class="mood-option">
+                            <i class="fas fa-heart"></i>
+                            <span>In Love</span>
+                        </label>
+                        
+                        <input type="radio" id="excited" name="mood" value="excited">
+                        <label for="excited" class="mood-option">
+                            <i class="fas fa-star"></i>
+                            <span>Excited</span>
+                        </label>
+                        
+                        <input type="radio" id="peaceful" name="mood" value="peaceful">
+                        <label for="peaceful" class="mood-option">
+                            <i class="fas fa-leaf"></i>
+                            <span>Peaceful</span>
+                        </label>
+                        
+                        <input type="radio" id="grateful" name="mood" value="grateful">
+                        <label for="grateful" class="mood-option">
+                            <i class="fas fa-hands"></i>
+                            <span>Grateful</span>
+                        </label>
+
+                        <input type="radio" id="sad" name="mood" value="sad">
+                        <label for="grateful" class="mood-option">
+                            <i class="fas fa-grin"></i>
+                            <span>Sad</span>
+                        </label>
+
+                        <input type="radio" id="frustrated" name="mood" value="frustrated">
+                        <label for="grateful" class="mood-option">
+                            <i class="fas fa-hands"></i>
+                            <span>Frustrated</span>
+                        </label>
+
+                        <input type="radio" id="annoying" name="mood" value="annoying">
+                        <label for="grateful" class="mood-option">
+                            <i class="fas fa-hands"></i>
+                            <span>Annoying</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell me what's on your mind, my love..." required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">
+                    Send with Love <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 and counting. Made with <i class="fas fa-heart"></i> for the most amazing person in the world.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
